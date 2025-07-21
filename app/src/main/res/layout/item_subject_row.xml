@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1E1E1E"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginVertical="5dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/subjectTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Subject Title"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/notesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/pyqBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PYQ"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+apply plugin:'com.google.gms.google-services'
+
+android {
+    namespace 'com.example.examprep'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.examprep"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-auth:22.3.1'
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

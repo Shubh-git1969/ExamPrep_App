@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SemesterChip" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#2C2C2C</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="shapeAppearanceOverlay">@style/SemesterChipShape</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+
+    </style>
+
+    <style name="SemesterChipShape" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
