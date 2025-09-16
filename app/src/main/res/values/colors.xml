@@ -8,5 +8,6 @@
     <color name="purple_500">#6200EE</color>
     <color name="status_bar_purple">#6C3FBF</color>
     <color name="deep_purple_custom">#7B44C1</color>
+    <color name="red">#FF0000</color>
 
 </resources>
